@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FoodCalc.Common\FoodCalc.Common.csproj" />
     <ProjectReference Include="..\FoodCalc.Data\FoodCalc.Data.csproj" />
     <ProjectReference Include="..\FoodCalc.Domain\FoodCalc.Domain.csproj" />

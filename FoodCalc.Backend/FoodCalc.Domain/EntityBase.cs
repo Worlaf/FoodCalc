@@ -8,5 +8,7 @@ namespace FoodCalc.Domain
 
         public DateTimeOffset CreatedAt { get; set; }
         public DateTimeOffset UpdatedAt { get; set; }
+
+        public bool IsNew() => Id == 0;
     }
 }
