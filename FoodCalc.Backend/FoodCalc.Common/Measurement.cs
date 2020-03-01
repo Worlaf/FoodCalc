@@ -7,7 +7,7 @@ namespace FoodCalc.Common
     public class Measurement
     {
         public UnitOfMeasurement Unit { get; set; }
-        public int MultiplierPower { get; set; }
-        public float Value { get; set; }
+
+        public DecimalValueRange Value { get; set; }
     }
 }

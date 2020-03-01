@@ -12,7 +12,7 @@ namespace FoodCalc.Domain
         public string Name { get; set; }
 
         /// <summary>
-        /// Энергия в кКал
+        /// Энергия в кКал/г
         /// </summary>
         public float? Energy { get; set; }
     }

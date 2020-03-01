@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Григорий\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_FoodCalc.Backend.1843581380.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Backend" t="IncludeFlat">
+      <e p="FoodCalc.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="NutrientsController.cs" t="Include" />
+        </e>
+        <e p="FoodCalc.Api.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include">
+          <e p="SwaggerDocNames.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ListResponse.cs" t="Include" />
+          <e p="Nutrient" t="Include">
+            <e p="DetailsModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="FoodCalc.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="FoodCalc.Backend.sln" t="IncludeFlat" />
+      <e p="FoodCalc.Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DecimalValueRange.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="BusinessException.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="DateTimeOffsetExtensions.cs" t="Include" />
+          <e p="StringExtensions.cs" t="Include" />
+        </e>
+        <e p="FoodCalc.Common.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include">
+          <e p="DiRegistrationModuleBase.cs" t="Include" />
+        </e>
+        <e p="Measurement.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FoodCalc.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitOfMeasurement.cs" t="Include" />
+      </e>
+      <e p="FoodCalc.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FoodCalc.Data.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include">
+          <e p="DataDiRegistrationModule.cs" t="Include" />
+          <e p="DbTransactionStrategy.cs" t="Include" />
+          <e p="FoodCalcDbContext.cs" t="Include" />
+          <e p="SqlServerDbUtil.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FoodCalc.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="EntityRepositoryBase.cs" t="Include" />
+          <e p="FoodRepository.cs" t="Include" />
+          <e p="NutrientCountRepository.cs" t="Include" />
+          <e p="NutrientRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FoodCalc.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EntityBase.cs" t="Include" />
+        <e p="Food.cs" t="Include" />
+        <e p="FoodCalc.Domain.csproj" t="IncludeRecursive" />
+        <e p="Nutrient.cs" t="Include" />
+        <e p="NutrientCount.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FoodCalc.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FoodCalc.Services" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FoodCalc.Services.csproj" t="IncludeRecursive" />
+        <e p="Handlers" t="Include">
+          <e p="Food" t="Include">
+            <e p="AddFoodNutrientHandler.cs" t="Include" />
+            <e p="CreateFoodHandler.cs" t="Include" />
+            <e p="DeleteFoodHandler.cs" t="Include" />
+          </e>
+          <e p="Nutrient" t="Include">
+            <e p="CreateNutrientHandler.cs" t="Include" />
+            <e p="DeleteNutrientHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="DatabaseInitializer.cs" t="Include" />
+          <e p="FoodCalcDbTransactionalBehavior.cs" t="Include" />
+          <e p="ServicesDiRegistrationModule.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FoodCalc.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

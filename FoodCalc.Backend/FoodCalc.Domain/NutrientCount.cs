@@ -5,7 +5,7 @@ using FoodCalc.Common;
 
 namespace FoodCalc.Domain
 {
-    public class NutrientContaining
+    public class NutrientCount : EntityBase
     {
         public int FoodId { get; set; }
         public Food Food { get; set; }
@@ -13,6 +13,6 @@ namespace FoodCalc.Domain
         public int NutrientId { get; set; }
         public Nutrient Nutrient { get; set; }
 
-        public Measurement NutrientMeasurement { get; set; }
+        public DecimalValueRange CountInGramsPer100GramsOfFood { get; set; }
     }
 }

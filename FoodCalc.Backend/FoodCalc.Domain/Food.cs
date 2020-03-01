@@ -11,6 +11,6 @@ namespace FoodCalc.Domain
 
         public string Name { get; set; }
 
-        public ICollection<NutrientContaining> NutrientsPer100Gram { get; set; }
+        public ICollection<NutrientCount> NutrientsPer100Gram { get; set; }
     }
 }
