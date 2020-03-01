@@ -1,6 +1,6 @@
 ﻿namespace FoodCalc.Api.Models.Nutrient
 {
-    public class DetailsModel
+    public class NutrientDetailsModel
     {
         public int Id { get; set; }
         public int? ParentId { get; set; }

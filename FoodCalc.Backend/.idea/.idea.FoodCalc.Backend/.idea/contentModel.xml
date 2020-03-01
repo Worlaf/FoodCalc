@@ -9,16 +9,30 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="FoodController.cs" t="Include" />
           <e p="NutrientsController.cs" t="Include" />
         </e>
         <e p="FoodCalc.Api.csproj" t="IncludeRecursive" />
+        <e p="GraphQL" t="Include">
+          <e p="FoodSchema.cs" t="Include" />
+          <e p="Types" t="Include">
+            <e p="DecimalValueRangeType.cs" t="Include" />
+            <e p="FoodQuery.cs" t="Include" />
+            <e p="FoodType.cs" t="Include" />
+            <e p="NutrientCountType.cs" t="Include" />
+            <e p="NutrientType.cs" t="Include" />
+          </e>
+        </e>
         <e p="Infrastructure" t="Include">
           <e p="SwaggerDocNames.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="Food" t="Include">
+            <e p="FoodDetailsModel.cs" t="Include" />
+          </e>
           <e p="ListResponse.cs" t="Include" />
           <e p="Nutrient" t="Include">
-            <e p="DetailsModel.cs" t="Include" />
+            <e p="NutrientDetailsModel.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">

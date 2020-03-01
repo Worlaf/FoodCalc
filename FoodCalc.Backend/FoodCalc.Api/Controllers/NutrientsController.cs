@@ -19,9 +19,9 @@ namespace FoodCalc.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<DetailsModel>> Details(int id)
+        public async Task<ActionResult<NutrientDetailsModel>> Details(int id)
         {
-            var model = await _nutrientRepository.GetByIdAsync(id, n => new DetailsModel
+            var model = await _nutrientRepository.GetByIdAsync(id, n => new NutrientDetailsModel
             {
                 Energy = n.Energy,
                 Id = n.Id,
@@ -33,9 +33,9 @@ namespace FoodCalc.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<ListResponse<DetailsModel>>> List()
+        public async Task<ActionResult<ListResponse<NutrientDetailsModel>>> List()
         {
-            var model = await _nutrientRepository.GetAllAsync(n => new DetailsModel
+            var items = await _nutrientRepository.GetAllAsync(n => new NutrientDetailsModel
             {
                 Energy = n.Energy,
                 Id = n.Id,
@@ -43,9 +43,9 @@ namespace FoodCalc.Api.Controllers
                 ParentId = n.ParentId
             });
 
-            return Ok(new ListResponse<DetailsModel>
+            return Ok(new ListResponse<NutrientDetailsModel>
             {
-                Items = model
+                Items = items
             });
         }
     }
