@@ -11,4 +11,13 @@ namespace FoodCalc.Api.GraphQL.Types
             Field(r => r.Max);
         }
     }
+    
+    public class DecimalValueRangeInputType : InputObjectGraphType<DecimalValueRange>
+    {
+        public DecimalValueRangeInputType()
+        {
+            Field(r => r.Min);
+            Field(r => r.Max);
+        }
+    }
 }

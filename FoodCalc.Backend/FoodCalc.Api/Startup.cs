@@ -91,7 +91,7 @@ namespace FoodCalc.Api
             builder.RegisterInstance(new DocumentWriter()).As<IDocumentWriter>();
 
             builder.RegisterAssemblyTypes(typeof(FoodType).Assembly).AssignableTo<IGraphType>().AsSelf();
-            builder.RegisterAssemblyTypes(typeof(FoodSchema).Assembly).AssignableTo<ISchema>().AsSelf();
+            builder.RegisterAssemblyTypes(typeof(FoodCalcSchema).Assembly).AssignableTo<ISchema>().AsSelf();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -114,7 +114,7 @@ namespace FoodCalc.Api
 
             app.UseRouting();
 
-            app.UseGraphQL<FoodSchema>();
+            app.UseGraphQL<FoodCalcSchema>();
             if (!env.IsProduction())
             {
                 app.UseSwagger();
