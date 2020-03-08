@@ -142,5 +142,54 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@babel\parser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@babel\Types" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@types" t="IncludeRecursive">
+      <e p="events" t="IncludeRecursive" />
+      <e p="minimatch" t="IncludeRecursive" />
+      <e p="node" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\eslint-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\experimental-utils" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\parser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\typescript-estree" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-babel" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-eslint" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-router" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-typescript" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-vuex" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-service" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\eslint-config-prettier" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\eslint-config-typescript" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\acorn" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\acorn-walk" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\address" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\chalk" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\cli-highlight" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\commander" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\core-js" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\dotenv" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\dotenv-expand" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint-plugin-prettier" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint-plugin-vue" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\javascript-stringify" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\portfinder" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\postcss" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\postcss-selector-parser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\source-map" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\terser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\ts-loader" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\tslib" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\tslint" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-class-component" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-loader" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-property-decorator" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-router" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-template-compiler" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vuex" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\webpack-chain" t="IncludeRecursive" />
   </component>
 </project>
