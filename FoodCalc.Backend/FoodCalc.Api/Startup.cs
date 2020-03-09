@@ -52,6 +52,12 @@ namespace FoodCalc.Api
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(FoodCalcDbTransactionalBehavior<,>));
             
             services.AddSingleton(Configuration);
+
+            // todo: restrict origin and add credentials
+            services.AddCors(o => o.AddDefaultPolicy(b => b
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod()));
             
             services.AddControllers();
 
@@ -113,6 +119,8 @@ namespace FoodCalc.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseGraphQL<FoodCalcSchema>();
             if (!env.IsProduction())
