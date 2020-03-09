@@ -1,7 +1,8 @@
-import React, { Context } from 'react';
+import React from 'react';
 import './App.css';
 import NutrientListPage from './pages/NutrientListPage';
 import FoodListPage from './pages/FoodListPage';
+import HomePage from './pages/HomePage';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import routes from './routes';
 import { GraphQL, GraphQLContext } from 'graphql-react';
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <GraphQLContext.Provider value={graphql}>
           <Switch>
+            <Route exact path={routes.home.path} children={HomePage} />
             <Route exact path={routes.nutrientList.path}>
               <NutrientListPage />
             </Route>

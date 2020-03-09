@@ -4,6 +4,10 @@ export interface IRoute {
 }
 
 const routes = {
+    home: <IRoute>{
+        path: "/",
+        title: "home"
+    },
     nutrientList: <IRoute>{
         path: "/nutrients",
         title: "nutrients"
