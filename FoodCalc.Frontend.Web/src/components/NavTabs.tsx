@@ -20,7 +20,7 @@ const NavTabs: React.FC<{ routes: IRoute[] } & RouteComponentProps> = props => {
     const value = props.routes.findIndex(r => r.path == props.match.path);
 
     return <Tabs value={value}>
-        {props.routes.map(r => <NavTab route={r} />)}
+        {props.routes.map((r, i) => <NavTab route={r} key={i} />)}
     </Tabs>
 }
 

@@ -34,7 +34,6 @@ const RootLayout: React.FC = props => {
                     <img height="100%" src={stomach} />
                     FoodCalc
                 </Box>
-
                 <NavTabs routes={[routes.nutrientList, routes.foodList]} />
             </Box>
         </AppBar>

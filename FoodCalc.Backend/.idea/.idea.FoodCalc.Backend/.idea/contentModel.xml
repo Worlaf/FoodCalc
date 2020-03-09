@@ -144,52 +144,106 @@
     </e>
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@babel\parser" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@babel\Types" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@emotion\hash" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\console" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\core" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\environment" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\fake-timers" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\reporters" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\source-map" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\test-result" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\test-sequencer" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@jest\Types" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@material-ui\core" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@material-ui\styles" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@material-ui\system" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@material-ui\Types" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@material-ui\utils" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@mrmlnc\readdir-enhanced" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@nodelib\fs.stat" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@testing-library\jest-dom" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@testing-library\react" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@testing-library\user-event" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@types" t="IncludeRecursive">
+      <e p="babel__generator" t="IncludeRecursive" />
+      <e p="babel__template" t="IncludeRecursive" />
+      <e p="babel__traverse" t="IncludeRecursive" />
       <e p="events" t="IncludeRecursive" />
+      <e p="graphql-react" t="IncludeRecursive" />
+      <e p="history" t="IncludeRecursive" />
+      <e p="istanbul-lib-coverage" t="IncludeRecursive" />
+      <e p="istanbul-lib-report" t="IncludeRecursive" />
+      <e p="jest" t="IncludeRecursive" />
       <e p="minimatch" t="IncludeRecursive" />
       <e p="node" t="IncludeRecursive" />
+      <e p="prop-types" t="IncludeRecursive" />
+      <e p="react" t="IncludeRecursive" />
+      <e p="react-dom" t="IncludeRecursive" />
+      <e p="react-router" t="IncludeRecursive" />
+      <e p="react-router-dom" t="IncludeRecursive" />
+      <e p="testing-library__dom" t="IncludeRecursive" />
+      <e p="yargs-parser" t="IncludeRecursive" />
     </e>
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\eslint-plugin" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\experimental-utils" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\parser" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@typescript-eslint\typescript-estree" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-babel" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-eslint" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-router" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-typescript" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-plugin-vuex" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\cli-service" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\eslint-config-prettier" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\@vue\eslint-config-typescript" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\acorn" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\acorn-walk" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\address" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\babel-jest" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\chalk" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\cli-highlight" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\commander" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\core-js" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\chokidar" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\clsx" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\csstype" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\diff-sequences" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\dotenv" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\dotenv-expand" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint-plugin-prettier" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\eslint-plugin-vue" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\javascript-stringify" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\portfinder" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\postcss" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\postcss-selector-parser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\expect" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\fast-glob" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\graphql-react" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\html-webpack-plugin" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\is-in-browser" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-changed-files" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-cli" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-config" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-diff" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-each" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-environment-jsdom" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-environment-node" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-get-type" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-haste-map" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-jasmine2" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-leak-detector" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-message-util" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-mock" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-regex-util" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-resolve" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-resolve-dependencies" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-runner" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-runtime" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-serializer" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-snapshot" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-util" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-validate" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jest-worker" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-camel-case" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-default-unit" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-global" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-nested" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-props-sort" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-rule-value-function" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\jss-plugin-vendor-prefixer" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\popper.js" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\pretty-error" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\pretty-format" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\react" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\react-dom" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\react-router-dom" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\react-scripts" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\realpath-native" t="IncludeRecursive" />
     <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\source-map" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\terser" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\ts-loader" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\tslib" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\tslint" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-class-component" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-loader" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-property-decorator" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-router" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vue-template-compiler" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\vuex" t="IncludeRecursive" />
-    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\webpack-chain" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\tiny-warning" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\typescript" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\upath" t="IncludeRecursive" />
+    <e p="C:\Users\Григорий\Documents\GitHub\FoodCalc\FoodCalc.Frontend.Web\node_modules\worker-farm" t="IncludeRecursive" />
   </component>
 </project>
