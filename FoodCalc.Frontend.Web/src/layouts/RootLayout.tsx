@@ -10,10 +10,6 @@ import SvgIcon from '@material-ui/core/SvgIcon';
 import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles({
-    contentContainer: {
-        padding: "1em",
-        margin: "1em"
-    },
     header: {
         display: "grid",
         gridTemplateColumns: "min-content auto"
@@ -38,9 +34,7 @@ const RootLayout: React.FC = props => {
             </Box>
         </AppBar>
         <Container maxWidth="md">
-            <Paper className={classes.contentContainer}>
-                {props.children}
-            </Paper>
+            {props.children}
         </Container>
     </div>
 }
