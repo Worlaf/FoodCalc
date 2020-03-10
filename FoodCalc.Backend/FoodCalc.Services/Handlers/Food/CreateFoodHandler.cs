@@ -10,6 +10,7 @@ namespace FoodCalc.Services.Handlers.Food
     {
         public int? ParentId { get; set; }
         public string Name { get; set; }
+        public string DescriptionMarkdown { get; set; }
     }
     
     public class CreateFoodHandler : IRequestHandler<CreateFoodRequest, Domain.Food>
@@ -28,7 +29,8 @@ namespace FoodCalc.Services.Handlers.Food
             var food = new Domain.Food
             {
                 Name = request.Name,
-                ParentId = request.ParentId
+                ParentId = request.ParentId,
+                DescriptionMarkdown = request.DescriptionMarkdown
             };
             
             _foodRepository.Save(food);

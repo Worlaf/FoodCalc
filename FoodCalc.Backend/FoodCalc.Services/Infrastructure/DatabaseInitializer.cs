@@ -39,32 +39,36 @@ namespace FoodCalc.Services.Infrastructure
             await CreateNutrient("Белки", 4.1f);
             await CreateNutrient("Жиры", 9.29f);
             await CreateNutrient("Углеводы", 4.1f);
+            await CreateNutrient("Пищевые волокна");
 
             var macroelementGroup = await CreateNutrient("Макроэлементы");
-            await CreateNutrient("Углерод", parentId: macroelementGroup.Id);
-            await CreateNutrient("Водород", parentId: macroelementGroup.Id);
-            await CreateNutrient("Кислород", parentId: macroelementGroup.Id);
-            await CreateNutrient("Азот", parentId: macroelementGroup.Id);
-            await CreateNutrient("Фосфор", parentId: macroelementGroup.Id);
-            await CreateNutrient("Сера", parentId: macroelementGroup.Id);
-            await CreateNutrient("Калий", parentId: macroelementGroup.Id);
-            await CreateNutrient("Кальций", parentId: macroelementGroup.Id);
-            await CreateNutrient("Магний", parentId: macroelementGroup.Id);
-            await CreateNutrient("Натрий", parentId: macroelementGroup.Id);
-            await CreateNutrient("Хлор", parentId: macroelementGroup.Id);
+            await CreateNutrient("Углерод, C", parentId: macroelementGroup.Id);
+            await CreateNutrient("Водород, H", parentId: macroelementGroup.Id);
+            await CreateNutrient("Кислород, O", parentId: macroelementGroup.Id);
+            await CreateNutrient("Азот, N", parentId: macroelementGroup.Id);
+            await CreateNutrient("Фосфор, P", parentId: macroelementGroup.Id);
+            await CreateNutrient("Сера, S", parentId: macroelementGroup.Id);
+            await CreateNutrient("Калий, K", parentId: macroelementGroup.Id);
+            await CreateNutrient("Кальций, Ca", parentId: macroelementGroup.Id);
+            await CreateNutrient("Магний, Mg", parentId: macroelementGroup.Id);
+            await CreateNutrient("Натрий, Na", parentId: macroelementGroup.Id);
+            await CreateNutrient("Хлор, Cl", parentId: macroelementGroup.Id);
 
             var microelementGroup = await CreateNutrient("Микроэлементы");
-            await CreateNutrient("Бром", parentId: microelementGroup.Id);
-            await CreateNutrient("Железо", parentId: microelementGroup.Id);
-            await CreateNutrient("Йод", parentId: microelementGroup.Id);
-            await CreateNutrient("Кобальт", parentId: microelementGroup.Id);
-            await CreateNutrient("Марганец", parentId: microelementGroup.Id);
-            await CreateNutrient("Медь", parentId: microelementGroup.Id);
-            await CreateNutrient("Молибден", parentId: microelementGroup.Id);
-            await CreateNutrient("Селен", parentId: microelementGroup.Id);
-            await CreateNutrient("Фтор", parentId: microelementGroup.Id);
-            await CreateNutrient("Хром", parentId: microelementGroup.Id);
-            await CreateNutrient("Цинк", parentId: microelementGroup.Id);
+            await CreateNutrient("Бром, Br", parentId: microelementGroup.Id);
+            await CreateNutrient("Бор, B", parentId: microelementGroup.Id);
+            await CreateNutrient("Кобальт, Co", parentId: microelementGroup.Id);
+            await CreateNutrient("Кремний, Si", parentId: microelementGroup.Id);
+            await CreateNutrient("Марганец, Mn", parentId: microelementGroup.Id);
+            await CreateNutrient("Медь, Cu", parentId: microelementGroup.Id);
+            await CreateNutrient("Молибден, Mo", parentId: microelementGroup.Id);
+            await CreateNutrient("Никель, Ni", parentId: microelementGroup.Id);
+            await CreateNutrient("Селен, Se", parentId: microelementGroup.Id);
+            await CreateNutrient("Фтор, F", parentId: microelementGroup.Id);
+            await CreateNutrient("Железо, Fe", parentId: microelementGroup.Id);
+            await CreateNutrient("Йод, I", parentId: microelementGroup.Id);
+            await CreateNutrient("Хром, Cr", parentId: microelementGroup.Id);
+            await CreateNutrient("Цинк, Zn", parentId: microelementGroup.Id);
         }
 
         private async Task<Nutrient> CreateNutrient(string name, float? energy = null, int? parentId = null)

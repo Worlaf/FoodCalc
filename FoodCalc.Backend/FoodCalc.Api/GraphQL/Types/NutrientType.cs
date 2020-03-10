@@ -12,6 +12,7 @@ namespace FoodCalc.Api.GraphQL.Types
             Field(n => n.Name);
             Field(n => n.Energy, nullable: true);
             Field(n => n.ParentId, nullable: true);
+            Field(n => n.DescriptionMarkdown, nullable: true);
             Field<NutrientType>(nameof(Nutrient.Parent));
         }
     }

@@ -12,6 +12,7 @@ namespace FoodCalc.Api.GraphQL.Types
             Field<ListGraphType<NutrientCountType>>(nameof(Food.NutrientsPer100Gram));
             Field<FoodType>(nameof(Food.Parent));
             Field(f => f.ParentId, nullable: true);
+            Field(f => f.DescriptionMarkdown, nullable: true);
         }
     }
 

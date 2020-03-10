@@ -10,6 +10,7 @@ namespace FoodCalc.Domain
         public Food Parent { get; set; }
 
         public string Name { get; set; }
+        public string DescriptionMarkdown { get; set; }
 
         public ICollection<NutrientCount> NutrientsPer100Gram { get; set; }
     }

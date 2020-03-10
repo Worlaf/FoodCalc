@@ -10,6 +10,7 @@ namespace FoodCalc.Domain
         public Nutrient Parent { get; set; }
 
         public string Name { get; set; }
+        public string DescriptionMarkdown { get; set; }
 
         /// <summary>
         /// Энергия в кКал/г

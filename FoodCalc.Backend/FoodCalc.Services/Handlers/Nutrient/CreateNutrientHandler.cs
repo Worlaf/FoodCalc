@@ -11,6 +11,7 @@ namespace FoodCalc.Services.Handlers.Nutrient
         public int? ParentId { get; set; }
         public string Name { get; set; }
         public float? Energy { get; set; }
+        public string DescriptionMarkdown { get; set; }
     }
     
     public class CreateNutrientHandler : IRequestHandler<CreateNutrientRequest, Domain.Nutrient>
@@ -30,7 +31,8 @@ namespace FoodCalc.Services.Handlers.Nutrient
             {
                 ParentId = request.ParentId,
                 Energy = request.Energy,
-                Name = request.Name
+                Name = request.Name,
+                DescriptionMarkdown = request.DescriptionMarkdown
             };
 
             _nutrientRepository.Save(nutrient);
