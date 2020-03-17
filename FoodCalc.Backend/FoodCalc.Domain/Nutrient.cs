@@ -12,6 +12,8 @@ namespace FoodCalc.Domain
         public string Name { get; set; }
         public string DescriptionMarkdown { get; set; }
 
+        public bool IsRequired { get; set; }
+
         /// <summary>
         /// Энергия в кКал/г
         /// </summary>

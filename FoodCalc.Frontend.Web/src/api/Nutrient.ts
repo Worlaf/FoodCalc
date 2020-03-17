@@ -3,4 +3,5 @@ export interface INutrient {
     id: number;
     parentId: number | null;
     descriptionMarkdown: string | null;
+    isRequired: boolean;
 }

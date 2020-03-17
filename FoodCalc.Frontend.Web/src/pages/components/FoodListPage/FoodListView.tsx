@@ -11,8 +11,12 @@ interface IFoodListViewProps {
 
 const FoodListView: React.FC<IFoodListViewProps> = props => {
     const [selectedIndex, setSelectedIndex] = useState<number>();
+    const nutrients = props.nutrients.reduce((map, nutrient) => {
+        map[nutrient.id] = nutrient;
+        return map;
+    }, {} as { [index: number]: INutrient });
 
-    return <Box>{props.food.map((f, i) => <FoodListItemView food={f} nutrients={props.nutrients} expanded={selectedIndex === i} toggle={() => setSelectedIndex(i)} key={i} />)}</Box>
+    return <Box>{props.food.map((f, i) => <FoodListItemView food={f} nutrients={nutrients} expanded={selectedIndex === i} toggle={() => setSelectedIndex(i)} key={i} />)}</Box>
 }
 
 export default FoodListView;

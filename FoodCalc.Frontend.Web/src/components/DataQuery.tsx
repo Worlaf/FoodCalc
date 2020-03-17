@@ -24,7 +24,7 @@ export default function DataQuery<T, V = {}>(props: IDataQueryProps<T, V>): Reac
         if (cacheValue.fetchError)
             return <div>Fetch error: {cacheValue.fetchError}</div>
         if (cacheValue.graphQLErrors)
-            return <div>GraphQL errors: {cacheValue.graphQLErrors}</div>
+            return <div>GraphQL errors: {cacheValue.graphQLErrors.map(e => <div>{e.message}</div>)}</div>
         if (cacheValue.httpError)
             return <div>HTTP error: {cacheValue.httpError}</div>
         if (cacheValue.parseError)

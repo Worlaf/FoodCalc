@@ -12,7 +12,7 @@ const FoodListPage: React.FC = () => {
         <DataQuery<{ nutrients: INutrient[], food: IFood[] }>
             operation={{
                 query: `{
-                    nutrients{id, name, parentId}
+                    nutrients{id, name, parentId, isRequired}
                     food{
                         id
                         name

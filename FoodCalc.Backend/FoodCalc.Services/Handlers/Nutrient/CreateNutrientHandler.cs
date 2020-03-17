@@ -12,6 +12,7 @@ namespace FoodCalc.Services.Handlers.Nutrient
         public string Name { get; set; }
         public float? Energy { get; set; }
         public string DescriptionMarkdown { get; set; }
+        public bool IsRequired { get; set; }
     }
     
     public class CreateNutrientHandler : IRequestHandler<CreateNutrientRequest, Domain.Nutrient>
@@ -32,7 +33,8 @@ namespace FoodCalc.Services.Handlers.Nutrient
                 ParentId = request.ParentId,
                 Energy = request.Energy,
                 Name = request.Name,
-                DescriptionMarkdown = request.DescriptionMarkdown
+                DescriptionMarkdown = request.DescriptionMarkdown,
+                IsRequired = request.IsRequired
             };
 
             _nutrientRepository.Save(nutrient);
